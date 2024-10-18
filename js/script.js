@@ -71,3 +71,47 @@
 // console.log(sumArray3(arr));
 
 // // // filter
+// // 1-SAVOL JAVOBI
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// function evenarrayFilter(arg) {
+//   return arg.filter(function (value) {
+//     return value % 2 == 0;
+//   });
+// }
+// console.log(evenarrayFilter(arr));
+
+// // 2-SAVOL JAVOBI
+// let arr = [1, -2, 3, 4, -5, 6, 7, -8, 9, -10];
+// function positiveArray(arg) {
+//   return arg.filter(function (value) {
+//     return value > 0;
+//   });
+// }
+// console.log(positiveArray(arr));
+
+// // 3-SAVOL JAVOBI
+// let arr = ["apple", "banana", "kiwi", "strawberry", "orange"];
+// function filterLongArray(arg) {
+//   return arg.filter(function (value) {
+//     return value.length > 5;
+//   });
+// }
+// console.log(filterLongArray(arr));
+
+// // 4-SAVOL JAVOBI
+// let arr = [15, 20, 18, 25, 30, 17, 22];
+// function ageFilter(age) {
+//   return age.filter(function (value) {
+// return value > 18;
+//   });
+// }
+// console.log(ageFilter(arr));
+
+// // 5-SAVOL JAVOBI
+// let arr = [3, 12, 7, 25, 9, 15, 1];
+// function filterLittleNumber(arg) {
+//   return arg.filter(function (value) {
+//     return value < 10;
+//   });
+// }
+// console.log(filterLittleNumber(arr));
